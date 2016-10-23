@@ -1,0 +1,170 @@
+/** Colours */
+body {
+  font-family: 'Open Sans', sans-serif; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700; }
+  body .site-title {
+    text-indent: -99999px;
+    width: 334px;
+    height: 52px;
+    background-image: url("images/ppvpressplay-logo.png");
+    margin: 0 auto; }
+  body .site-description {
+    color: #F9FAFC; }
+  body a {
+    color: #B6BAC0;
+    text-decoration: none; }
+    body a:active, body a:focus, body a:hover {
+      color: #CECED2; }
+  body button.subscribe-press-play {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-shadow: none;
+    box-shadow: none; }
+    body button.subscribe-press-play:hover {
+      color: #fff;
+      background-color: #449d44;
+      border-color: #398439;
+      box-shadow: none; }
+  body button.block {
+    width: 97.5%; }
+  body h3.front-page-shows {
+    text-align: center; }
+  body .shows-front-page-archive {
+    display: inline-block;
+    width: 33%; }
+    body .shows-front-page-archive h2.entry-title {
+      margin-bottom: 0px !important; }
+  body .img-responsive {
+    width: 100%;
+    height: auto; }
+  body .site-header {
+    background-color: #E95347; }
+    body .site-header a {
+      color: #F9FAFC; }
+      body .site-header a:active, body .site-header a:focus, body .site-header a:hover {
+        color: #b5c1da; }
+    body .site-header .site-branding, body .site-header nav {
+      width: 75%;
+      margin: 0px auto;
+      text-align: center;
+      float: none; }
+    body .site-header nav li {
+      padding: 15px; }
+  body .content-area.page-content-area {
+    width: 75%;
+    margin: 0px auto; }
+  body .content-area .site-main {
+    float: left;
+    width: 80%; }
+    body .content-area .site-main.archive-content-area {
+      width: 100%;
+      float: none; }
+  body .content-area .widget-area {
+    float: right;
+    width: 20%; }
+  body .content-area .ppv-fullwidth, body .content-area.ppv-fullwidth {
+    text-align: center;
+    width: 75%;
+    margin: 0px auto; }
+    body .content-area .ppv-fullwidth .site-main, body .content-area.ppv-fullwidth .site-main {
+      width: 100%; }
+    body .content-area .ppv-fullwidth iframe, body .content-area.ppv-fullwidth iframe {
+      margin-left: auto;
+      margin-right: auto; }
+    body .content-area .ppv-fullwidth h1.page-title, body .content-area.ppv-fullwidth h1.page-title {
+      text-align: center; }
+  body .placement {
+    width: 75%;
+    margin: 0px auto;
+    text-align: center; }
+  body .above-footer {
+    background-color: #B6BAC0;
+    color: #F9FAFC;
+    padding-top: 1em;
+    padding-bottom: 1.5em; }
+    body .above-footer a {
+      color: #F9FAFC; }
+      body .above-footer a:active, body .above-footer a:focus, body .above-footer a:hover {
+        color: #b5c1da; }
+    body .above-footer .widget {
+      margin-bottom: 0em; }
+  body .site-footer {
+    background-color: #E95347;
+    color: #F9FAFC; }
+    body .site-footer a {
+      color: #F9FAFC; }
+      body .site-footer a:active, body .site-footer a:focus, body .site-footer a:hover {
+        color: #b5c1da; }
+  body .archive-header {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    min-height: 300px;
+    background-position: center;
+    position: relative; }
+    body .archive-header a {
+      color: #F9FAFC; }
+      body .archive-header a:active, body .archive-header a:focus, body .archive-header a:hover {
+        color: #b5c1da; }
+    body .archive-header h2.entry-title {
+      position: absolute;
+      margin-bottom: -20px;
+      width: 100%;
+      text-align: center;
+      top: 40%;
+      z-index: 3; }
+    body .archive-header .overlay {
+      background-color: rgba(0, 0, 0, 0.75);
+      position: absolute;
+      z-index: 2;
+      width: 100%;
+      height: 100%; }
+  body .oio-banner-zone {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important; }
+
+@media (max-width: 997px) {
+  .shows-front-page-archive {
+    display: block !important;
+    width: 100% !important; }
+
+  .content-area.page-content-area {
+    width: 90% !important;
+    margin: 0px auto !important; }
+  .content-area .site-main, .content-area .widget-area {
+    float: none !important;
+    width: 90% !important;
+    margin: 0 auto; }
+    .content-area .site-main.archive-content-area, .content-area .widget-area.archive-content-area {
+      width: 100% !important;
+      float: none !important; }
+  .content-area .ppv-fullwidth, .content-area.ppv-fullwidth {
+    width: 90% !important;
+    margin: 0px auto !important; } }
+
+/*# sourceMappingURL=added.css.map */
