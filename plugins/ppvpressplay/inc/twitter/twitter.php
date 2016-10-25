@@ -5,10 +5,10 @@ use Abraham\TwitterOAuth\TwitterOAuth;
 function ppvpp_get_latest_tweets() {
 
 	$twitterConnection = new TwitterOAuth(
-					'kXrJ5Nsbrt0n2JhPfBRbtfNRQ',	// Consumer Key
-					'ALFsKauOsYeTFd33wo9kee3SZXoZKoZFCbfh0s0tN80z8kLv6q',   	// Consumer secret
-					'7226742-BbFvnwWZTWZtM41LjHRT2LRVQMMQKHJG5GDthV9sXf',       // Access token
-					'cfdasEq0gQCK5KWbvaeEeu9Nwz85kqzp65998CBx3cpBX'    	// Access token secret
+					PPVPRESSPLAY_CONSUMER_KEY,	// Consumer Key
+					PPVPRESSPLAY_CONSUMER_SECRET,   	// Consumer secret
+					PPVPRESSPLAY_ACCESS_TOKEN,       // Access token
+					PPVPRESSPLAY_ACCESS_SECRET    	// Access token secret
 					);
 
 	$twitterData = $twitterConnection->get(

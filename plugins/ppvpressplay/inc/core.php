@@ -1,5 +1,8 @@
 <?php
 
+// DEFINITIONS
+require_once PPVPRESSPLAY_PLUGIN_PATH . '/inc/definitions.php';
+
 // REST API
 require_once PPVPRESSPLAY_PLUGIN_PATH . '/inc/endpoints.php';
 
